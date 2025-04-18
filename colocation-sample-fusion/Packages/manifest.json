@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.meta.xr.colocation": "file:../../colocation-package",
+    "com.meta.xr.colocation": "file:D:/Unity Projects/Unity-LocalMultiplayerMR/colocation-package",
     "com.meta.xr.sdk.platform": "59.0.0",
     "com.unity.collab-proxy": "2.2.0",
     "com.unity.collections": "2.1.4",

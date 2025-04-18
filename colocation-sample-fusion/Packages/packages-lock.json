@@ -1,10 +1,12 @@
 {
   "dependencies": {
     "com.meta.xr.colocation": {
-      "version": "file:../../colocation-package",
+      "version": "file:D:/Unity Projects/Unity-LocalMultiplayerMR/colocation-package",
       "depth": 0,
       "source": "local",
-      "dependencies": {}
+      "dependencies": {
+        "com.unity.collections": "1.2.4"
+      }
     },
     "com.meta.xr.sdk.core": {
       "version": "59.0.0",
@@ -18,8 +20,8 @@
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.meta.xr.sdk.core": "59.0.0",
-        "com.unity.ugui": "1.0.0"
+        "com.unity.ugui": "1.0.0",
+        "com.meta.xr.sdk.core": "59.0.0"
       },
       "url": "https://packages.unity.com"
     },
@@ -45,8 +47,8 @@
       "source": "registry",
       "dependencies": {
         "com.unity.burst": "1.8.4",
-        "com.unity.modules.unityanalytics": "1.0.0",
-        "com.unity.nuget.mono-cecil": "1.11.4"
+        "com.unity.nuget.mono-cecil": "1.11.4",
+        "com.unity.modules.unityanalytics": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
@@ -182,9 +184,9 @@
       "depth": 0,
       "source": "registry",
       "dependencies": {
+        "com.unity.modules.audio": "1.0.0",
         "com.unity.modules.director": "1.0.0",
         "com.unity.modules.animation": "1.0.0",
-        "com.unity.modules.audio": "1.0.0",
         "com.unity.modules.particlesystem": "1.0.0"
       },
       "url": "https://packages.unity.com"
@@ -243,9 +245,9 @@
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.modules.subsystems": "1.0.0",
         "com.unity.modules.vr": "1.0.0",
         "com.unity.modules.xr": "1.0.0",
+        "com.unity.modules.subsystems": "1.0.0",
         "com.unity.xr.legacyinputhelpers": "2.1.7"
       },
       "url": "https://packages.unity.com"
